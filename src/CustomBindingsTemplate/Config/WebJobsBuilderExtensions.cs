@@ -12,7 +12,7 @@ namespace CustomBindingsTemplate.Config
             {
                 throw new ArgumentNullException(nameof(builder));
             }
-
+            builder.AddExtension<CustomBindingsTemplate_ConfigProvider>();
             return builder;
         }
     }
