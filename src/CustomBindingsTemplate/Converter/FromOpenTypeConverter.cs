@@ -1,5 +1,7 @@
 ﻿using Microsoft.Azure.WebJobs;
 using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace CustomBindingsTemplate.Converter
 {
